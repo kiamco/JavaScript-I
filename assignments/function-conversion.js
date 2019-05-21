@@ -53,9 +53,11 @@ console.log(subtract(1, 2));
 // Stretch
 
 exampleArray = [1, 2, 3, 4];
-const triple = exampleArray.map(function(num) {
-    return num * 3;
-});
-console.log(triple);
+// const triple = exampleArray.map(function(num) {
+//     return num * 3;
+// });
+// console.log(triple);
+
+const triple = exampleArray.map(num => num * 3);
 
 // exampleArray = [1, 2, 3, 4];
