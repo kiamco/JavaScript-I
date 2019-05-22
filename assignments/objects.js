@@ -66,23 +66,40 @@ const antonietta = {
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
+console.log('challenge 2 output:\n\n');
 // Mitzi's name
-console.log(mitzi.name);
+console.log("Mitzi's Name: " + mitzi.name);
+console.log('-------------------------------------------------------------');
+
 // Kennan's ID
-console.log(kennan.id);
+console.log("Kenan's ID: " + kennan.id);
+console.log('-------------------------------------------------------------');
+
 // Keven's email
-console.log(keven.email);
+console.log("Keven's email: " + keven.email);
+console.log('-------------------------------------------------------------');
+
 // Gannie's name
-console.log(gannie.name);
+console.log("Gannie's Name: " + gannie.name);
+console.log('-------------------------------------------------------------');
+
 // Antonietta's Gender
-console.log(antonietta.gender);
+console.log("Antonietta's gender: " + antonietta.gender);
+console.log('-------------------------------------------------------------\n\n\n');
 
 
+
+
+console.log("challenge 3 output:\n");
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 console.log(kennan.speak());
+console.log('-------------------------------------------------------------');
+
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 console.log(antonietta.multiplyNums(3, 4));
+console.log('-------------------------------------------------------------\n\n\n');
+
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
@@ -116,16 +133,28 @@ const parent = {
     }
 }
 
+
+console.log('\n\nStretch Goal output:\n');
 // Log the parent object's name
 console.log(parent.name);
+console.log('-------------------------------------------------------------');
+
 // Log the child's age
 console.log(parent.child.age);
+console.log('-------------------------------------------------------------');
+
 // Log the name and age of the grandchild
 console.log(parent.child.grandChild.name + " " + parent.child.grandChild.age);
+console.log('-------------------------------------------------------------');
 
 // Have the parent speak
 console.log(parent.speak());
+console.log('-------------------------------------------------------------');
+
 // Have the child speak
 console.log(parent.child.speak());
+console.log('-------------------------------------------------------------');
+
 // Have the grandchild speak
 console.log(parent.child.grandChild.speak());
+console.log('-------------------------------------------------------------');
