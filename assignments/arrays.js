@@ -400,5 +400,5 @@ for (i = 0; i < inventory.length; i++) {
     }
 }
 
-console.log('BMW and audi list in json format:')
+console.log('BMW and audi list, JSON string:');
 console.log(JSON.stringify(BMWAndAudi));
